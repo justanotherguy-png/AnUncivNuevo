@@ -33,7 +33,7 @@
 		"strength": 80,
 		"rangedStrength": 35,
 		"range": 2,
-		"uniques": ["May withdraw before melee [10]%","[150]% Strength vs [Gunpowder] units","Can carry [3] [Gunpowder] units"]
+		"uniques": ["Can carry [3] [Gunpowder] units"]
 		"cost": 400,
 		"requiredTech": "Engineering"
 	}
@@ -44,10 +44,10 @@
 		"replaces": "Anti-Aircraft Gun",
 		"movement": 1,
 		"strength": 60,
-		"rangedStrength": 70
+		"rangedStrength": 80
 		"interceptRange" : 8,
 		"range": 6,
-		"uniques": ["[200]% Strength vs [Air] units","[200]% Strength vs [Armored] units","[100]% chance to intercept air attacks"]
+		"uniques": ["[100]% chance to intercept air attacks"]
 		"cost": 300,
 		"requiredTech": "Archery"
 	}
@@ -58,7 +58,7 @@
 		"replaces": "Fighter",
 		"movement": 6,
 		"strength": 50,
-		"uniques": ["[150]% Strength vs [Air] units","[100]% chance to intercept air attacks"]
+		"uniques": ["[100]% chance to intercept air attacks"]
 		"cost": 300,
 		"requiredTech": "Archery"
 	}
@@ -81,7 +81,7 @@
 		"strength": 35,
 		"hurryCostModifier": 0,
 		"range": 1,
-		"uniques": ["May withdraw before melee [50]%","Founds a new city"]
+		"uniques": ["Founds a new city"]
 		"cost": 5,
 		"requiredTech": "Archery",
 	}
@@ -94,7 +94,7 @@
 		"strength": 80,
 		"rangedStrength": 45,
 		"range": 2,
-		"uniques": ["May withdraw before melee [5]%","[200]% Strength vs [Gunpowder] units","Can carry [3] [Gunpowder] units"]
+		"uniques": ["Can carry [3] [Gunpowder] units"]
 		"cost": 70,
 		"requiredTech": "Engineering"
 	}
