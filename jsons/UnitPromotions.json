@@ -30,6 +30,13 @@
         "row": 3,
         "column": 1
       }
+	{
+        "name": "Metal Skin",
+        "uniques": ["[+30]% Strength <when fighting in [Open terrain] tiles>"],
+	"unitTypes": ["Armored"],
+        "row": 4,
+        "column": 1
+      }
       {
         "name": "Skirmishing I",
         "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
