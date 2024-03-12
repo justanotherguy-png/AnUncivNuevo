@@ -54,11 +54,11 @@
         "column": 2
       }
      {
-        "name": "S",
-        "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-        "prerequisites": ["Skirmishing II"],
-	    	"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Gunpowder"],
-        "row": 3,
+        "name": "Fix Bayonets",
+        "uniques": ["[+10]% Strength <vs [Wounded] units>","May capture killed [Sword] units <with [20]% chance>","May capture killed [Gunpowder] units <with [25]% chance>","May capture killed [Ranged Gunpowder] units <with [30]% chance>"],
+        "prerequisites": ["Skirmishing I","Veterancy I"],
+	    	"unitTypes": ["Sword"],
+        "row": 4,
         "column": 2
       }
     {
