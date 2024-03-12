@@ -99,8 +99,8 @@
 		"afterPeace": "Very well, all that fighting was getting boring anyway.",
 		"tradeRequest": "We bestow you the honor of this trade offer.",
 
-		"outerColor": [6,6,6],
-		"innerColor": [0,0,200],
+		"outerColor": [4,4,4],
+		"innerColor": [145,160,200],
 		"unique": "MANIFEST_DESTINY",
 		"cities": ["Hive","Throczan","Chovex","Imphet","Omphead","Grecoks","Vrelzieks","Vronens","Aerlae",
 			"Phulnoith","Creved","Xirqen","Gax","Threqals","Bhilmuk","Mazea","Zomirs","Drorkrex","Honkrath",
