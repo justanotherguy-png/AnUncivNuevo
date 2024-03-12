@@ -61,7 +61,7 @@
 	}
 	{
 		"name": "Mobile Cannon",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Armored",
 		"uniqueTo": "Separatists",
 		"replaces": "Mobile SAM",
 		"movement": 3,
@@ -70,7 +70,7 @@
 		"rangedStrength": 55
 		"strength": 55,
 		"cost": 475,
-		"uniques": ["[50]% chance to intercept air attacks","[+100]% Strength <vs [Land] units> <when attacking>","Never appears as a Barbarian unit"],
+		"uniques": ["[50]% chance to intercept air attacks","[+50]% Strength <vs [Land] units> <when attacking>","Never appears as a Barbarian unit"],
 	}
 	{
 		"name": "Conscripts",
@@ -129,6 +129,30 @@
 		"strength": 38,
 		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>","[+50]% Strength <vs [Wounded] units> <when attacking>"],
 		"cost": 320,
+	}
+	{
+		"name": "Lend-Leased Tank",
+		"unitType": "Armored",
+		"uniqueTo": "Harbisan Republic",
+		"replaces": "Modern Armor",
+		"movement": 4,
+		"range": 2,
+		"rangedStrength": 62
+		"strength": 62,
+		"cost": 485,
+		"uniques": ["[+70]% Strength <vs [Land] units> <when attacking>","[+30]% Strength <when fighting in [Open terrain] tiles>","Never appears as a Barbarian unit"],
+	}
+	{
+		"name": "Advanced Tank",
+		"unitType": "Armored",
+		"uniqueTo": "Regima",
+		"replaces": "Modern Armor",
+		"movement": 4,
+		"range": 2,
+		"rangedStrength": 62
+		"strength": 62,
+		"cost": 485,
+		"uniques": ["[+70]% Strength <vs [Land] units> <when attacking>","[+30]% Strength <when fighting in [Open terrain] tiles>","Never appears as a Barbarian unit"],
 	}
 	{
 		"name": "Merchant Fleet",
