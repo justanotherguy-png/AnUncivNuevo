@@ -1,5 +1,13 @@
 [
     {
-      
+      "name": "Conquered City",
+      "text": "'We have taken the city, now what are your orders?'"
+      "choices": ["'Leave the people be.'","'Plunder the city.'","'Make an example out of them.'"]
+        "text": "'Leave the people be.'",
+        "triggeredUniques": ["Gain [15] [Culture]"],
+          "text": "'Plunder the city.'",
+        "triggeredUniques": ["Gain [100]-[500] [Gold]","Gain [-2] Happiness <in this city>"],
+          "text": "'Make an example out of them.'",
+        "triggeredUniques": ["Gain [40] [Production]","[-1] population <in this city>","Gain [-3] Happiness <in this city>"],
     }
 ]
