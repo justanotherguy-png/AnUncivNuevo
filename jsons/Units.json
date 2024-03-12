@@ -18,7 +18,19 @@
 		"replaces": "Pikeman",
 		"movement": 2,
 		"strength": 35,
-		"uniques": ["[1] additional attacks per turn","Ignores terrain cost","[+50]% Strength <vs [Wounded] units>","Can transform to [Irregulars]"],
+		"uniques": ["[1] additional attacks per turn","Ignores terrain cost","[+50]% Strength <vs [Wounded] units>","Can transform to [Irregulars]","[+50]% Strength <vs [Mounted] units>"],
+		"cost": 320,
+	}
+	{
+		"name": "Dragoons",
+		"unitType": "Mounted",
+		"uniqueTo": "Separatists",
+		"replaces": "Cavalry",
+		"movement": 4,
+		"range": 2,
+		"rangedStrength": 60,
+		"strength": 25,
+		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
 		"cost": 320,
 	}
 	{
@@ -72,6 +84,18 @@
 		"cost": 240,
 	}
 	{
+		"name": "Old Guards",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Harbisan Republic",
+		"replaces": "Marine",
+		"movement": 2,
+		"range": 3,
+		"rangedStrength": 80,
+		"uniques": ["Earn [20]% of the damage done to [Land] units as [Gold]","Upon capturing a city, receive [5] times its [Food] production as [Gold] immediately"],
+		"strength": 22,
+		"cost": 330,
+	}
+	{
 		"name": "Gatling Gun",
 		"unitType": "Ranged Gunpowder",
 		"uniqueTo": "Harbisan Republic",
@@ -95,6 +119,16 @@
 		"strength": 8,
 		"uniques": ["[+50]% Strength <vs [Land] units>","Must set up to ranged attack","Ranged attacks may be performed over obstacles"],
 		"cost": 360,
+	}
+		{
+		"name": "Hussars",
+		"unitType": "Mounted",
+		"uniqueTo": "Harbisan Republic",
+		"replaces": "Lancer",
+		"movement": 4,
+		"strength": 38,
+		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>","[+50]% Strength <vs [Wounded] units> <when attacking>"],
+		"cost": 320,
 	}
 	{
 		"name": "Merchant Fleet",
