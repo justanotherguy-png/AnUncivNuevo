@@ -4,18 +4,18 @@
 		"cost": 80,
 		"hurryCostModifier": 160,
 		"gold": 2,
-	        "production": 10,
-		"uniques": ["40% of food is carried over after a new citizen is born","Destroyed when the city is captured"],
+	        "production": 5,
+		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Archery"
   }
   {
-	        "name": "Paid Labour Camp",
+	        "name": "Workhouse",
 		"cost": 80,
 		"hurryCostModifier": 160,
-		"production": 5,
-	        "happiness": 2,
+		"production": 4,
+	        "happiness": 1,
 	        "maintenance": 1,
-	        "uniques": ["5% of food is carried over after a new citizen is born","Destroyed when the city is captured"],
+	        "uniques": ["Destroyed when the city is captured"],
   }
   {
 	        "name": "Experimentation Lab",
@@ -24,8 +24,7 @@
 	        "production": 2,
 	        "science": 6,
 	        "maintenance": 1,
-		"uniques": ["40% of food is carried over after a new citizen is born","Destroyed when the city is captured"],
-		"requiredTech": "Archery"
+		"uniques": ["Destroyed when the city is captured"],
   }
 	{
 	        "name": "Refugee Center",
@@ -36,21 +35,19 @@
 		"uniqueTo": "Separatists",
 	        "happiness": 1,
 		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Archery"
 	}
 	{
 	        "name": "Rice Farm",
 		"cost": 55,
 		"culture": 1,
 	        "food": 3,
-		"requiredTech": "Archery"
 		
   }
   {
 	        "name": "Recruiting Booth",
 		"cost": 150,
 		"hurryCostModifier": 160,
-		"cityHealth": 5,
+		"cityHealth": 50,
 	        "happiness": 1,
 	        "maintenance": 1,
 	        "uniques": ["Destroyed when the city is captured"],
@@ -59,7 +56,7 @@
 	"name": "Retired Arms Stockpile",
 		"cost": 160,
 		"hurryCostModifier": 160,
-		"cityStrength": 5,
+		"cityStrength": 35,
 	        "maintenance": 1,
 	        "uniques": ["Destroyed when the city is captured"],
 	  }
