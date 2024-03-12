@@ -22,28 +22,79 @@
 		"cost": 320,
 	}
 	{
-		"name": "Anti-Aircraft Gun",
+		"name": "Anti-Air Gun",
 		"unitType": "Ranged Gunpowder",
 		"uniqueTo": "Separatists",
 		"movement": 2,
 		"interceptRange": 3,
+		"replaces": "Anti-Aircraft Gun",
 		"range": 3,
 		"rangedStrength": 50
 		"strength": 50,
-		"cost": 375,
+		"cost": 400,
 		"uniques": ["[1] additional attacks per turn","[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>","Never appears as a Barbarian unit"],
 	}
 	{
 		"name": "Repeating Cannon",
 		"unitType": "Ranged Gunpowder",
 		"uniqueTo": "Separatists",
+		"replaces": "Artillery",
 		"movement": 1,
 		"interceptRange": 2,
 		"range": 4,
 		"rangedStrength": 60
 		"strength": 60,
-		"cost": 375,
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[100]% chance to intercept air attacks","[+100]% Strength <vs [[+30]% Strength <when fighting in [Open terrain] tiles>] units> <when attacking>","Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"cost": 425,
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[75]% chance to intercept air attacks","[+100]% Strength <vs [[+30]% Strength <when fighting in [Open terrain] tiles>] units> <when attacking>","Must set up to ranged attack","Never appears as a Barbarian unit"],
+	}
+	{
+		"name": "Mobile Cannon",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Separatists",
+		"replaces": "Mobile SAM",
+		"movement": 3,
+		"interceptRange": 1,
+		"range": 2,
+		"rangedStrength": 55
+		"strength": 55,
+		"cost": 475,
+		"uniques": ["[50]% chance to intercept air attacks","[+100]% Strength <vs [Land] units> <when attacking>","Never appears as a Barbarian unit"],
+	}
+	{
+		"name": "Conscripts",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Harbisan Republic",
+		"replaces": "Musketman",
+		"movement": 2,
+		"range": 3,
+		"rangedStrength": 55,
+		"strength": 12,
+		"cost": 240,
+	}
+	{
+		"name": "Gatling Gun",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Harbisan Republic",
+		"replaces": "Machine Gun",
+		"movement": 2,
+		"range": 3,
+		"rangedStrength": 40,
+		"interceptRange": 1
+		"strength": 8,
+		"uniques": ["[1] additional attacks per turn","[50]% chance to intercept air attacks", "[+50]% Strength <vs [Air] units>"],
+		"cost": 320,
+	}
+	{
+		"name": "Field Gun",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Harbisan Republic",
+		"replaces": "Cannon",
+		"movement": 1,
+		"range": 5,
+		"rangedStrength": 55,
+		"strength": 8,
+		"uniques": ["[+50]% Strength <vs [Land] units>","Must set up to ranged attack","Ranged attacks may be performed over obstacles"],
+		"cost": 360,
 	}
 	{
 		"name": "Merchant Fleet",
