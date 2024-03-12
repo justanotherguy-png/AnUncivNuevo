@@ -75,6 +75,16 @@
 	{
 		"name": "Conscripts",
 		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"movement": 2,
+		"range": 3,
+		"rangedStrength": 50,
+		"strength": 11,
+		"cost": 200,
+	}
+	{
+		"name": "Conscripts",
+		"unitType": "Gunpowder",
 		"uniqueTo": "Harbisan Republic",
 		"replaces": "Musketman",
 		"movement": 2,
@@ -143,7 +153,7 @@
 		"uniques": ["[+70]% Strength <vs [Land] units> <when attacking>","[+30]% Strength <when fighting in [Open terrain] tiles>","Never appears as a Barbarian unit"],
 	}
 	{
-		"name": "Advanced Tank",
+		"name": "Modernized Tank",
 		"unitType": "Armored",
 		"uniqueTo": "Regima",
 		"replaces": "Modern Armor",
