@@ -18,7 +18,7 @@
 		"replaces": "Pikeman",
 		"movement": 2,
 		"strength": 35,
-		"uniques": ["[1] additional attacks per turn","Ignore terrain cost","[+50]% Strength <vs [Wounded] units>","Can transform to [Irregulars]"],
+		"uniques": ["[1] additional attacks per turn","Ignores terrain cost","[+50]% Strength <vs [Wounded] units>","Can transform to [Irregulars]"],
 		"cost": 320,
 	}
 	{
