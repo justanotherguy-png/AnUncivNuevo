@@ -13,7 +13,7 @@
 	}
 	{
 		"name": "Shock Irregulars",
-		"unitType": "Gunpowder",
+		"unitType": "Sword",
 		"uniqueTo": "Separatists",
 		"replaces": "Pikeman",
 		"movement": 2,
