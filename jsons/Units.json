@@ -1,111 +1,49 @@
 [
 	{
-		"name": "Rebel Rifles",
+		"name": "Irregulars",
 		"unitType": "Gunpowder",
 		"uniqueTo": "Separatists",
-		"replaces": "Rifleman",
-		"movement": 3,
-		"strength": 110,
-		"uniques": ["May capture killed [All] units","Earn [20]% of the damage done to [All] units as [Gold]","Can build [Fort] improvements on tiles"]
-		"cost": 140,
-		"requiredTech": "Archery",
-		"promotions": ["Logistics","March"]
-	}
-        {
-		"name": "Conscripts",
-		"unitType": "Gunpowder",
-		"uniqueTo": "Regima",
-		"replaces": "Musketman",
+		"replaces": "Great War Infantry",
 		"movement": 2,
-		"strength": 40,
-		"hurryCostModifier": 0,
-		"range": 1,
-		"uniques": ["May withdraw before melee [40]%","Founds a new city"]
-		"cost": 20,
-		"requiredTech": "Archery",
+		"range": 3,
+		"rangedStrength": 75,
+		"strength": 20,
+		"uniques": [""]
+		"promotions": ["Ignore terrain cost","Can transform to [Shock Irregulars]"],
+		"cost": 320,
 	}
 	{
-	        "name": "Armoured Infantry",
-		"unitType": "Armored",
-		"uniqueTo": "Regima",
-		"replaces": "Mechanized Infantry",
-		"movement": 4,
-		"strength": 80,
-		"rangedStrength": 35,
-		"range": 2,
-		"uniques": ["Can carry [3] [Gunpowder] units"]
-		"cost": 400,
-		"requiredTech": "Engineering"
-	}
-	{
-                "name": "Autocannon Battery",
-		"unitType": "Ranged Gunpowder",
+		"name": "Shock Irregulars",
+		"unitType": "Gunpowder",
 		"uniqueTo": "Separatists",
-		"replaces": "Anti-Aircraft Gun",
-		"movement": 1,
-		"strength": 60,
-		"rangedStrength": 80
-		"interceptRange" : 8,
-		"range": 6,
-		"uniques": ["[100]% chance to intercept air attacks"]
-		"cost": 300,
-		"requiredTech": "Archery"
-	}
-	{
-	        "name": "Combat Fighter",
-		"unitType": "Fighter",
-		"uniqueTo": "Regima",
-		"replaces": "Fighter",
-		"movement": 6,
-		"strength": 50,
-		"uniques": ["[100]% chance to intercept air attacks"]
-		"cost": 300,
-		"requiredTech": "Archery"
-	}
-	{
-		"name": "Longshot Missile",
-		"unitType": "Missile",
-		"replaces": "Guided Missile",
-		"strength": 60,
-		"rangedStrength": 60
-		"range": 20,
-		"cost": 350,
-		"requiredTech": "Archery",
-	}
-	{
-		"name": "Militiamen",
-		"unitType": "Gunpowder",
-		"uniqueTo": "Harbisan Republic",
-		"replaces": "Musketman",
-		"movement": 2,
-		"strength": 35,
-		"hurryCostModifier": 0,
-		"range": 1,
-		"uniques": ["Founds a new city"]
-		"cost": 5,
-		"requiredTech": "Archery",
-	}
-	{
-	        "name": "Mercenary Infantry",
-		"unitType": "Armored",
-		"uniqueTo": "Antrinex Company",
-		"replaces": "Mechanized Infantry",
-		"movement": 4,
-		"strength": 80,
-		"rangedStrength": 45,
-		"range": 2,
-		"uniques": ["Can carry [3] [Gunpowder] units"]
-		"cost": 70,
-		"requiredTech": "Engineering"
-	}
-	{
-		"name": "Civilian Soldiers",
 		"replaces": "Pikeman",
 		"movement": 2,
-		"strength": 20,
-		"unitType": "Gunpowder",
-		"cost": 60
+		"strength": 35,
+		"uniques": ["[1] additional attacks per turn","Ignore terrain cost","[+50]% Strength <vs [Wounded] units>"],
+		"promotions": ["Ignore terrain cost","Can transform to [Irregulars]"]
+		"cost": 320,
+	}
+	{
+		"name": "Anti-Aircraft Gun",
+		"unitType": "Ranged Gunpowder",
+		"movement": 2,
+		"interceptRange": 3,
+		"range": 3,
+		"rangedStrength": 50
+		"strength": 50,
+		"cost": 375,
+		"uniques": ["[1] additional attacks per turn","[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+	}
+	{
+		"name": "Repeating Cannon",
+		"unitType": "Ranged Gunpowder",
+		"movement": 1,
+		"interceptRange": 2,
+		"range": 4,
+		"rangedStrength": 60
+		"strength": 60,
+		"cost": 375,
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[100]% chance to intercept air attacks","[+100]% Strength <vs [Armored] units> <when attacking>","Must set up to ranged attack","Never appears as a Barbarian unit",
 	}
 	
-
 		]
