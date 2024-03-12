@@ -173,7 +173,6 @@
 		"strength": 10,
 		"cost": 120,
 		"uniques": ["Gain [15]-[30] [Gold] <by consuming this unit> <in [in non-enemy foreign cities] cities>"],
-		"civilopediaText": "Can gain gold when in foreign, non-hostile cities",
 	}
 	
 		]
