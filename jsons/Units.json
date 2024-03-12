@@ -53,7 +53,7 @@
 		"rangedStrength": 25
 		"strength": 10,
 		"cost": 120,
-		"uniques": ["Gain [25]-[50] [Gold] <by consuming this unit> <on foreign continents>"],
+		"uniques": ["Gain [15]-[30] [Gold] <by consuming this unit> <in [in non-enemy foreign cities] cities>"],
 	}
 	
 		]
