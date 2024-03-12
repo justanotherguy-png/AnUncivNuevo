@@ -62,7 +62,7 @@
       }
      {
         "name": "Fix Bayonets",
-        "uniques": ["[+10]% Strength <vs [Wounded] units>","May capture killed [Sword] units <with [20]% chance>","May capture killed [Gunpowder] units <with [25]% chance>","May capture killed [Ranged Gunpowder] units <with [30]% chance>"],
+        "uniques": ["[+10]% Strength <vs [Wounded] units>","May capture killed [Land] units <with [20]% chance>"],
         "prerequisites": ["Skirmishing I","Veterancy I"],
 	    	"unitTypes": ["Sword"],
         "row": 4,
