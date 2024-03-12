@@ -8,8 +8,7 @@
 		"range": 3,
 		"rangedStrength": 75,
 		"strength": 20,
-		"uniques": [""]
-		"promotions": ["Ignore terrain cost","Can transform to [Shock Irregulars]"],
+		"promotions": ["Ignores terrain cost","Can transform to [Shock Irregulars]"],
 		"cost": 320,
 	}
 	{
@@ -26,6 +25,7 @@
 	{
 		"name": "Anti-Aircraft Gun",
 		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Separatists",
 		"movement": 2,
 		"interceptRange": 3,
 		"range": 3,
@@ -37,6 +37,7 @@
 	{
 		"name": "Repeating Cannon",
 		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Separatists",
 		"movement": 1,
 		"interceptRange": 2,
 		"range": 4,
@@ -44,6 +45,16 @@
 		"strength": 60,
 		"cost": 375,
 		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[100]% chance to intercept air attacks","[+100]% Strength <vs [Armored] units> <when attacking>","Must set up to ranged attack","Never appears as a Barbarian unit"],
+	}
+	{
+		"name": "Merchant Fleet",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"range": 2,
+		"rangedStrength": 25
+		"strength": 10,
+		"cost": 120,
+		"uniques": ["Gain [25]-[50] [Gold] <by consuming this unit> <on foreign continents>"],
 	}
 	
 		]
