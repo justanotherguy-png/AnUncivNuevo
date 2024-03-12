@@ -44,7 +44,7 @@
 		"rangedStrength": 60
 		"strength": 60,
 		"cost": 375,
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[100]% chance to intercept air attacks","[+100]% Strength <vs [Metal Skin] units> <when attacking>","Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[100]% chance to intercept air attacks","[+100]% Strength <vs [[+30]% Strength <when fighting in [Open terrain] tiles>] units> <when attacking>","Must set up to ranged attack","Never appears as a Barbarian unit"],
 	}
 	{
 		"name": "Merchant Fleet",
