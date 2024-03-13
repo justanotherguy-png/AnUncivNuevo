@@ -57,7 +57,7 @@
 		"rangedStrength": 60
 		"strength": 60,
 		"cost": 425,
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[+100]% Strength <vs [Modernized Tank] units> <when attacking>","[75]% chance to intercept air attacks","[+100]% Strength <vs [Lend-Leased Tank] units> <when attacking>","Must set up to ranged attack","Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[+100]% Strength <vs [Modernized Tank] units> <when attacking>","[75]% chance to intercept air attacks","[+100]% Strength <vs [Lend-Leased Tank] units> <when attacking>","[+100]% Strength <vs [Private Tank] units> <when attacking>","Must set up to ranged attack","Never appears as a Barbarian unit"],
 	}
 	{
 		"name": "Mobile Cannon",
@@ -83,7 +83,7 @@
 		"cost": 200,
 	}
 	{
-		"name": "Conscripts",
+		"name": "Volunteers",
 		"unitType": "Gunpowder",
 		"uniqueTo": "Harbisan Republic",
 		"replaces": "Musketman",
@@ -153,6 +153,42 @@
 		"uniques": ["[+70]% Strength <vs [Land] units> <when attacking>","[+30]% Strength <when fighting in [Open terrain] tiles>","Never appears as a Barbarian unit"],
 	}
 	{
+		"name": "Regulars",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Regima",
+		"replaces": "Infantry",
+		"movement": 2,
+		"range": 2,
+		"rangedStrength": 35,
+		"strength": 14,
+		"uniques": ["[1] additional attacks per turn"],
+		"cost": 280,
+	}
+	{
+		"name": "Howitzer",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Regima",
+		"replaces": "Artillery",
+		"movement": 1,
+		"range": 6,
+		"rangedStrength": 55,
+		"strength": 10,
+		"uniques": ["[+50]% Strength <vs [Land] units>","Must set up to ranged attack","Ranged attacks may be performed over obstacles","[+150]% Strength <vs cities>"],
+		"cost": 360,
+	}
+	{
+		"name": "Royal Squadron",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 500,
+		"uniques": ["[100]% chance to intercept air attacks"],
+		"attackSound": "jetgun"
+	}
+	{
 		"name": "Modernized Tank",
 		"unitType": "Armored",
 		"uniqueTo": "Regima",
@@ -163,6 +199,42 @@
 		"strength": 62,
 		"cost": 485,
 		"uniques": ["[+70]% Strength <vs [Land] units> <when attacking>","[+30]% Strength <when fighting in [Open terrain] tiles>","Never appears as a Barbarian unit"],
+	}
+	{
+		"name": "Mercenaries",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Antrinex Company",
+		"replaces": "Mechanized Infantry",
+		"movement": 2,
+		"range": 2,
+		"rangedStrength": 40,
+		"strength": 14,
+		"uniques": ["[1] additional attacks per turn","Earn [30]% of the damage done to [Land] units as [Gold]","Upon capturing a city, receive [10] times its [Food] production as [Gold] immediately"],
+		"cost": 300,
+	}
+	{
+		"name": "Private Tank",
+		"unitType": "Armored",
+		"uniqueTo": "Antrinex Company",
+		"replaces": "Modern Armor",
+		"movement": 4,
+		"range": 2,
+		"rangedStrength": 60
+		"strength": 60,
+		"cost": 455,
+		"uniques": ["[+30]% Strength <when fighting in [Open terrain] tiles>","Never appears as a Barbarian unit"],
+	}
+	{
+		"name": "Rocket Gun",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Antrinex Company",
+		"replaces": "Rocket Artillery",
+		"movement": 1,
+		"range": 6,
+		"rangedStrength": 35,
+		"strength": 10,
+		"uniques": ["Blast radius [1]","[+50]% Strength <vs [Land] units>","Must set up to ranged attack","Ranged attacks may be performed over obstacles","[+150]% Strength <vs cities>"],
+		"cost": 360,
 	}
 	{
 		"name": "Merchant Fleet",
