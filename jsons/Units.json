@@ -8,7 +8,7 @@
 		"range": 3,
 		"rangedStrength": 75,
 		"strength": 20,
-		"uniques": ["Ignores terrain cost","Can transform to [Shock Irregulars]"],
+		"uniques": ["Ignores terrain cost","Can transform to [Shock Irregulars]","Can instantly construct a [Fort] improvement"],
 		"cost": 320,
 	}
 	{
@@ -18,7 +18,7 @@
 		"replaces": "Pikeman",
 		"movement": 2,
 		"strength": 35,
-		"uniques": ["[1] additional attacks per turn","Ignores terrain cost","[+50]% Strength <vs [Wounded] units>","Can transform to [Irregulars]","[+50]% Strength <vs [Hussars] units>"],
+		"uniques": ["[1] additional attacks per turn","Ignores terrain cost","[+50]% Strength <vs [Wounded] units>","Can transform to [Irregulars]","[+50]% Strength <vs [Hussars] units>","Can instantly construct a [Fort] improvement"],
 		"cost": 320,
 	}
 	{
