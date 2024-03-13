@@ -12,7 +12,7 @@
 		"name": "Conscription",
 		"cost": 20,
 		"hurryCostModifier": 160,
-		"uniques": ["Cost increases by [0] when built","[3] free [Conscripts] units appear<in [in your cities] cities>","Gain [-3] [Happiness] <in [in your cities] cities>"],
+		"uniques": ["Cost increases by [0] when built","[3] free [Conscripts] units appear<in [in your cities] cities>","Gain [-3] [Happiness] <in [in your cities] cities>","Remove [Conscription] <in [in your cities] cities> <after [3] turns>"],
   }
   {
 	        "name": "Workhouse",
