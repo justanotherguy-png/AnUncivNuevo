@@ -246,5 +246,40 @@
 		"cost": 120,
 		"uniques": ["Gain [15]-[30] [Gold] <by consuming this unit> <in [in non-enemy foreign cities] cities>"],
 	}
-	
+	{
+		"name": "Carrier",
+		"unitType": "Aircraft Carrier",
+		"movement": 5,
+		"strength": 40,
+		"interceptRange": 2,
+		"cost": 375,
+		"requiredTech": "Electronics",
+		"uniques": ["Cannot attack", "[40]% chance to intercept air attacks","Can carry [2] [Aircraft] units"]
+	}
+	{
+		"name": "Battleship",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 80,
+		"rangedStrength": 80,
+		"range": 4,
+		"interceptRange": 2
+		"cost": 500,
+		"uniques": ["Never appears as a Barbarian unit","[50]% chance to intercept air attacks"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	}
+	{
+		"name": "Destroyer",
+		"unitType": "Ranged Water",
+		"movement": 6,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 3
+		"interceptRange": 2,
+		"cost": 375,
+		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Submarine] units>"],
+		"attackSound": "shipguns"
+	}
 		]
